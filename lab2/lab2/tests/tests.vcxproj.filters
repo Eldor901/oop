@@ -13,12 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="test_data">
-      <UniqueIdentifier>{0e6ce2dd-49be-4107-8e02-31e30c8bbcef}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HtmlDecode\FuncToHtmlDecode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -26,36 +26,11 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="findtext.cpp">
+    <ClCompile Include="tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="sometext1.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="out1.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="erropenfile.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="out2.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="sometext2.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="out3.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="out4.txt">
-      <Filter>test_data</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="test.bat">
+    <ClCompile Include="..\HtmlDecode\FuncToHtmlDecode.cpp">
       <Filter>Source Files</Filter>
-    </None>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -13,49 +13,40 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="test_data">
-      <UniqueIdentifier>{0e6ce2dd-49be-4107-8e02-31e30c8bbcef}</UniqueIdentifier>
+    <Filter Include="tests_data">
+      <UniqueIdentifier>{627c15a7-d6d5-460d-bf18-c4fcda4109f2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="FuncToVect.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="findtext.cpp">
+    <ClCompile Include="vector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="sometext1.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="out1.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="erropenfile.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="out2.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="sometext2.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="out3.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="out4.txt">
-      <Filter>test_data</Filter>
-    </Text>
+    <ClCompile Include="FuncToVect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="test.bat">
       <Filter>Source Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input1.txt">
+      <Filter>tests_data</Filter>
+    </Text>
+    <Text Include="output1.txt">
+      <Filter>tests_data</Filter>
+    </Text>
   </ItemGroup>
 </Project>

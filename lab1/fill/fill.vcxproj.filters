@@ -14,7 +14,7 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="test_data">
-      <UniqueIdentifier>{0e6ce2dd-49be-4107-8e02-31e30c8bbcef}</UniqueIdentifier>
+      <UniqueIdentifier>{ac49c83e-5a82-4aba-8968-9bc76960c907}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -26,36 +26,27 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="findtext.cpp">
+    <ClCompile Include="fill.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="sometext1.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="out1.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="erropenfile.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="out2.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="sometext2.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="out3.txt">
-      <Filter>test_data</Filter>
-    </Text>
-    <Text Include="out4.txt">
-      <Filter>test_data</Filter>
-    </Text>
   </ItemGroup>
   <ItemGroup>
     <None Include="test.bat">
       <Filter>Source Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input1.txt">
+      <Filter>test_data</Filter>
+    </Text>
+    <Text Include="output1.txt">
+      <Filter>test_data</Filter>
+    </Text>
+    <Text Include="input2.txt">
+      <Filter>test_data</Filter>
+    </Text>
+    <Text Include="output2.txt">
+      <Filter>test_data</Filter>
+    </Text>
   </ItemGroup>
 </Project>
